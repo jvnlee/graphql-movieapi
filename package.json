@@ -7,6 +7,7 @@
   "author": "Hyun Jun Lee",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.4",
     "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
@@ -17,7 +18,7 @@
   },
   "nodemonConfig": {
     "watch": [
-      "graphql"
+      "graphql-movieapi"
     ],
     "ext": "js, json, jsx, env, graphql"
   },
